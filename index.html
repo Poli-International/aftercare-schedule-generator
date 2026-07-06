@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generate a personalised piercing aftercare schedule based on your piercing type, healing stage, and current condition. APP-protocol based guidance for every phase.">
+  <title>Personalised Piercing Aftercare Schedule Generator | Poli International</title>
+  <link rel="stylesheet" href="/tools/aftercare-schedule-generator/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">🧴 Aftercare Schedule</div>
+    <h1>Personalised Aftercare Schedule Generator</h1>
+    <p>Get a phase-appropriate aftercare plan based on your piercing type, days into healing, and current condition.</p>
+  </header>
+
+  <div class="input-card">
+    <div class="form-grid">
+      <div class="form-field">
+        <label for="piercing-type">Piercing type</label>
+        <select id="piercing-type" class="input-field">
+          <option value="">— Select —</option>
+          <option value="earlobe">Earlobe</option>
+          <option value="cartilage">Ear cartilage (helix / flat / conch)</option>
+          <option value="daith">Daith / rook / snug / tragus</option>
+          <option value="nostril">Nostril</option>
+          <option value="septum">Septum</option>
+          <option value="labret">Labret / lip / monroe</option>
+          <option value="tongue">Tongue</option>
+          <option value="navel">Navel / belly button</option>
+          <option value="surface">Surface / dermal / microdermal</option>
+          <option value="nipple">Nipple</option>
+          <option value="genital">Genital (general)</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="days-since">Days since piercing</label>
+        <input type="number" id="days-since" class="input-field" min="0" max="730" placeholder="e.g. 14">
+      </div>
+      <div class="form-field form-field--wide">
+        <label for="condition">Current condition</label>
+        <select id="condition" class="input-field">
+          <option value="normal">Normal — no concerns</option>
+          <option value="bump">Small bump or raised tissue at site</option>
+          <option value="irritation">Redness, tenderness, or minor irritation</option>
+          <option value="discharge">Unusual discharge (not normal lymph fluid)</option>
+        </select>
+      </div>
+    </div>
+    <button class="gen-btn" id="gen-btn" type="button">Generate My Aftercare Schedule →</button>
+  </div>
+
+  <div id="result"></div>
+
+  <div class="disclaimer">
+    <strong>Note:</strong> This schedule follows APP (Association of Professional Piercers) aftercare guidelines.
+    If you have signs of infection — spreading redness, fever, pus, or severe swelling — do not rely on this tool.
+    Remove the jewellery only on professional advice, and see a doctor promptly.
+  </div>
+
+</div>
+<script src="/tools/aftercare-schedule-generator/js/app.js"></script>
+</body>
+</html>
