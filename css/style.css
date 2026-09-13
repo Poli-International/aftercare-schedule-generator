@@ -81,3 +81,133 @@ body { background: var(--bg); color: var(--text-main); font-family: -apple-syste
 
 .disclaimer { background: var(--bg-card); border: 1px solid var(--border); border-top: 3px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; font-size: 0.8rem; color: var(--text-muted); margin-top: 1.5rem; }
 .disclaimer strong { color: var(--text-main); }
+
+/* ============================================================
+   V2 additions: language picker, branding, downsizing,
+   red flags, export actions, and the printable sheet.
+   Colours come from the shared theme variables so both themes
+   work; nothing here hardcodes a literal.
+   ============================================================ */
+
+.lang-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lang-select {
+  width: auto;
+  min-width: 8.5rem;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+.field-hint {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+}
+
+.form-error {
+  margin: 0.75rem 0 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--warn) 15%, transparent);
+  border: 1px solid var(--warn);
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+/* Export actions sit under the schedule, not in the form, so they only appear
+   once there is something worth taking away. */
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 0.5rem;
+}
+.action-btn {
+  flex: 1 1 12rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  color: var(--text-main);
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.action-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+.privacy-line {
+  margin: 0.75rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* The studio's own name on a sheet it hands to a client. */
+.studio-brand {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border-left: 3px solid var(--primary);
+  background: var(--bg-card);
+  border-radius: var(--radius);
+}
+.studio-brand-name { font-weight: 700; font-size: 1.05rem; color: var(--text-main); }
+.studio-brand-contact { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.15rem; }
+
+/* Downsizing is the most-missed step, so it gets a block of its own rather
+   than a bullet buried in a list. */
+.downsize-block { border-left: 3px solid var(--phase2); padding-left: 0.9rem; }
+.downsize-date {
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0 0 0.4rem;
+}
+
+.redflag-block { border-left: 3px solid var(--warn); padding-left: 0.9rem; }
+.redflag-normal, .redflag-urgent { margin: 0 0 0.5rem; line-height: 1.5; }
+.redflag-urgent { color: var(--text-main); }
+
+/* ------------------------------------------------------------ print --- */
+/* shared/print.css already hides the header, buttons, inputs and the input
+   card, and forces black on white. These rules cover what is specific to this
+   tool, and keep the sheet to one page. */
+@media print {
+  .lang-wrap, .field-hint, .form-error,
+  .result-actions, .privacy-line {
+    display: none !important;
+  }
+
+  /* The bar is a coloured div; the shared sheet forces every background to
+     white, so it would print as an empty box. The percentage beside it already
+     carries the information. */
+  .progress-bar-wrap { display: none !important; }
+
+  .studio-brand {
+    display: block !important;
+    border: 0 !important;
+    border-bottom: 2pt solid black !important;
+    border-radius: 0 !important;
+    padding: 0 0 0.3cm !important;
+    margin-bottom: 0.4cm !important;
+  }
+  .studio-brand-name { font-size: 14pt; }
+
+  .schedule-card { page-break-inside: avoid; }
+  .schedule-section { page-break-inside: avoid; margin-bottom: 0.35cm; }
+  .schedule-section-title { font-size: 11pt; font-weight: 700; margin-bottom: 0.15cm; }
+  .step-list li, .avoid-list li { margin-bottom: 0.12cm; }
+
+  /* Keep the two blocks that matter most on a sheet stuck to a mirror. */
+  .downsize-block, .redflag-block {
+    border-left: 2pt solid black !important;
+    padding-left: 0.3cm !important;
+    page-break-inside: avoid;
+  }
+  .redflag-urgent { font-weight: 700; }
+}
