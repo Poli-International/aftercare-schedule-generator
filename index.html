@@ -14,64 +14,139 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Generate a personalised piercing aftercare schedule based on your piercing type, healing stage, and current condition. APP-protocol based guidance for every phase.">
+  <meta name="description" content="Generate a personalised piercing aftercare schedule from the date you were pierced: phase-specific routine, dated downsizing reminder, printable sheet and calendar export.">
   <title>Personalised Piercing Aftercare Schedule Generator | Poli International</title>
   <link rel="stylesheet" href="/tools/aftercare-schedule-generator/css/style.css">
-</head>
+    <link rel="stylesheet" href="/tools/shared/theme.css">
+    <script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Personalised Aftercare Schedule Generator",
+  "url": "https://poliinternational.com/tools/aftercare-schedule-generator/",
+  "description": "Generate a personalised, phase-specific piercing aftercare schedule. Enter your piercing date for a clinical routine across all three healing phases, with a dated downsizing reminder and a calendar export.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "featureList": [
+    "Phase-specific aftercare routine for 11 piercing placements",
+    "Real calendar dates calculated from the date of piercing",
+    "Dated downsizing reminder",
+    "Printable one-page schedule",
+    "Calendar export as an .ics file",
+    "Available in 7 languages"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com"
+  },
+  "dateModified": "2026-09-01",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true
+}
+</script>
+
+  <script src="/js/input-guards.js"></script>
+<link rel="stylesheet" href="/tools/shared/print.css" media="print">
+  <link rel="stylesheet" href="/tools/shared/a11y.css">
+  </head>
 <body>
 <div class="tool-wrapper">
 
   <header class="tool-header">
-    <div class="tool-header__badge">🧴 Aftercare Schedule</div>
-    <h1>Personalised Aftercare Schedule Generator</h1>
-    <p>Get a phase-appropriate aftercare plan based on your piercing type, days into healing, and current condition.</p>
+    <div class="tool-header__badge" data-i18n="app.badge">🧴 Aftercare Schedule</div>
+    <h1 data-i18n="app.title">Personalised Aftercare Schedule Generator</h1>
+    <p data-i18n="app.subtitle">Enter your piercing date for a phase-appropriate plan with real dates you can print, save or add to your calendar.</p>
+    <div class="lang-wrap">
+      <label for="lang-select" data-i18n="label.language">Language</label>
+      <select id="lang-select" class="input-field lang-select"></select>
+    </div>
   </header>
 
   <div class="input-card">
     <div class="form-grid">
       <div class="form-field">
-        <label for="piercing-type">Piercing type</label>
+        <label for="piercing-type" data-i18n="label.type">Piercing type</label>
         <select id="piercing-type" class="input-field">
-          <option value="">— Select —</option>
-          <option value="earlobe">Earlobe</option>
-          <option value="cartilage">Ear cartilage (helix / flat / conch)</option>
-          <option value="daith">Daith / rook / snug / tragus</option>
-          <option value="nostril">Nostril</option>
-          <option value="septum">Septum</option>
-          <option value="labret">Labret / lip / monroe</option>
-          <option value="tongue">Tongue</option>
-          <option value="navel">Navel / belly button</option>
-          <option value="surface">Surface / dermal / microdermal</option>
-          <option value="nipple">Nipple</option>
-          <option value="genital">Genital (general)</option>
+          <option value="" data-i18n="opt.select">Select...</option>
+          <option value="earlobe" data-i18n="type.earlobe">Earlobe</option>
+          <option value="cartilage" data-i18n="type.cartilage">Ear cartilage (helix / flat)</option>
+          <option value="daith" data-i18n="type.daith">Daith / rook / snug / tragus</option>
+          <option value="nostril" data-i18n="type.nostril">Nostril</option>
+          <option value="septum" data-i18n="type.septum">Septum</option>
+          <option value="labret" data-i18n="type.labret">Labret / lip / monroe</option>
+          <option value="tongue" data-i18n="type.tongue">Tongue</option>
+          <option value="navel" data-i18n="type.navel">Navel</option>
+          <option value="surface" data-i18n="type.surface">Surface / dermal</option>
+          <option value="nipple" data-i18n="type.nipple">Nipple</option>
+          <option value="genital" data-i18n="type.genital">Genital (general)</option>
         </select>
       </div>
       <div class="form-field">
-        <label for="days-since">Days since piercing</label>
-        <input type="number" id="days-since" class="input-field" min="0" max="730" placeholder="e.g. 14">
+        <label for="pierce-date" data-i18n="label.date">Date of piercing</label>
+        <input type="date" id="pierce-date" class="input-field">
+        <small class="field-hint" data-i18n="hint.date">Choose the day it was done. A future date is fine if you are booked in.</small>
       </div>
       <div class="form-field form-field--wide">
-        <label for="condition">Current condition</label>
+        <label for="condition" data-i18n="label.condition">Current condition</label>
         <select id="condition" class="input-field">
-          <option value="normal">Normal — no concerns</option>
-          <option value="bump">Small bump or raised tissue at site</option>
-          <option value="irritation">Redness, tenderness, or minor irritation</option>
-          <option value="discharge">Unusual discharge (not normal lymph fluid)</option>
+          <option value="normal" data-i18n="cond.normal">Normal, no concerns</option>
+          <option value="bump" data-i18n="cond.bump">Small bump or raised tissue at site</option>
+          <option value="irritation" data-i18n="cond.irritation">Redness, tenderness, or minor irritation</option>
+          <option value="discharge" data-i18n="cond.discharge">Unusual discharge (not normal lymph fluid)</option>
         </select>
       </div>
+      <div class="form-field">
+        <label for="studio-name" data-i18n="label.studio">Studio name (optional)</label>
+        <input type="text" id="studio-name" class="input-field" maxlength="60">
+      </div>
+      <div class="form-field">
+        <label for="studio-contact" data-i18n="label.studioContact">Contact line (optional)</label>
+        <input type="text" id="studio-contact" class="input-field" maxlength="80">
+        <small class="field-hint" data-i18n="hint.studio">Appears on the printed sheet. Nothing is sent anywhere.</small>
+      </div>
     </div>
-    <button class="gen-btn" id="gen-btn" type="button">Generate My Aftercare Schedule →</button>
+    <p id="form-error" class="form-error" role="alert" hidden></p>
+    <button class="gen-btn" id="gen-btn" type="button" data-i18n="btn.generate">Generate my aftercare schedule</button>
   </div>
 
   <div id="result"></div>
 
-  <div class="disclaimer">
-    <strong>Note:</strong> This schedule follows APP (Association of Professional Piercers) aftercare guidelines.
-    If you have signs of infection — spreading redness, fever, pus, or severe swelling — do not rely on this tool.
-    Remove the jewellery only on professional advice, and see a doctor promptly.
+  <div id="result-actions" class="result-actions" hidden>
+    <button type="button" class="action-btn" id="btn-print" data-i18n="btn.print">Print / Save as PDF</button>
+    <button type="button" class="action-btn" id="btn-ics" data-i18n="btn.ics">Add to calendar</button>
+  </div>
+
+  <p class="privacy-line" data-i18n="privacy">Everything is worked out in your browser. Nothing you enter is sent anywhere, and nothing is stored.</p>
+
+  <div class="disclaimer" data-i18n="disclaimer">
+    This tool gives general aftercare guidance and is not a diagnosis. Healing varies between people. If you have signs of infection, such as spreading redness, fever, pus or severe swelling, see a doctor promptly, and remove jewellery only on professional advice.
   </div>
 
 </div>
+<script src="/tools/aftercare-schedule-generator/js/i18n.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/fr.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/it.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/de.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/es.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/nl.js"></script>
+<script src="/tools/aftercare-schedule-generator/js/i18n/pt.js"></script>
 <script src="/tools/aftercare-schedule-generator/js/app.js"></script>
 </body>
 </html>
