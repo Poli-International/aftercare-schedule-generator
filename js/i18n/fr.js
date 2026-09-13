@@ -1,0 +1,140 @@
+/* Français. Terminologie de soin français: "sérum physiologique" pour la saline
+   stérile, "bourgeon d'irritation" pour la boule, "lymphe" pour le liquide
+   clair, "descendre en taille" pour le downsizing, qui est ce que dit un
+   perceur français. */
+window.AftercareI18N.add('fr', {
+  'app.title': 'Générateur de calendrier de cicatrisation personnalisé',
+  'app.subtitle': 'Indiquez la date de votre piercing pour obtenir un plan adapté à chaque phase, avec de vraies dates à imprimer, enregistrer ou ajouter à votre agenda.',
+  'app.badge': 'Calendrier de soins',
+
+  'label.type': 'Type de piercing',
+  'label.date': 'Date du piercing',
+  'label.condition': 'État actuel',
+  'label.studio': 'Nom du studio (facultatif)',
+  'label.studioContact': 'Ligne de contact (facultatif)',
+  'label.language': 'Langue',
+  'hint.date': 'Choisissez le jour où il a été réalisé. Une date future convient si vous avez déjà rendez-vous.',
+  'hint.studio': 'Apparaît sur la fiche imprimée. Rien n’est envoyé nulle part.',
+
+  'opt.select': 'Choisir...',
+  'btn.generate': 'Générer mon calendrier de soins',
+  'btn.print': 'Imprimer / Enregistrer en PDF',
+  'btn.ics': 'Ajouter à l’agenda',
+
+  'err.selectType': 'Choisissez d’abord un type de piercing.',
+  'err.selectDate': 'Indiquez la date à laquelle le piercing a été réalisé.',
+
+  'type.earlobe': 'Lobe',
+  'type.cartilage': 'Cartilage de l’oreille (hélix / flat)',
+  'type.daith': 'Daith / rook / snug / tragus',
+  'type.nostril': 'Aile du nez',
+  'type.septum': 'Septum',
+  'type.labret': 'Labret / lèvre / monroe',
+  'type.tongue': 'Langue',
+  'type.navel': 'Nombril',
+  'type.surface': 'Surface / microdermal',
+  'type.nipple': 'Téton',
+  'type.genital': 'Génital (général)',
+
+  'cond.normal': 'Normal, aucune inquiétude',
+  'cond.bump': 'Petite boule ou tissu surélevé au niveau du site',
+  'cond.irritation': 'Rougeur, sensibilité ou irritation légère',
+  'cond.discharge': 'Écoulement inhabituel (pas de la lymphe normale)',
+
+  'phase.1': 'Aiguë / inflammatoire',
+  'phase.2': 'Prolifération / reconstruction',
+  'phase.3': 'Remodelage / maturation',
+  'phase.healed': 'Entièrement cicatrisé / entretien',
+  'phase.label': 'Phase {n}',
+
+  'day.n': 'Jour {n}',
+  'progress.of': 'de la cicatrisation prévue',
+  'meta.pierced': 'Percé le {date}',
+  'time.remaining': 'Environ {weeks} semaines avant la cicatrisation complète prévue, vers le {date}',
+  'time.done': 'Cicatrisation prévue terminée',
+  'time.notYet': 'Votre piercing est prévu pour le {date}. Voici le plan dès le premier jour.',
+
+  'freq.1': 'une fois par jour',
+  'freq.2': 'deux fois par jour',
+  'freq.3': 'trois fois par jour',
+
+  'section.routine': 'Votre routine de soins actuelle',
+  'section.avoid': 'À éviter à ce stade',
+  'section.downsize': 'Descendre en taille',
+  'section.redflags': 'Ce qui est normal, et ce qui ne l’est pas',
+  'section.jewellery': 'Bijou',
+
+  'steps.p1.s1': 'Rincez au sérum physiologique stérile (chlorure de sodium à 0,9 %, sans additif), {freq}',
+  'steps.p1.s2': 'Vaporisez directement devant et derrière le piercing. N’utilisez pas de coton, qui s’accroche',
+  'steps.p1.s3': 'Laissez sécher à l’air, ou tamponnez doucement avec un essuie-tout propre, sans jamais frotter',
+  'steps.p1.s4': 'Ne touchez pas au bijou. Ne le faites pas tourner et ne le bougez pas',
+  'steps.p1.s5': 'Ne touchez jamais le piercing avec des mains non lavées, sous aucun prétexte',
+  'steps.p1.s6': 'Attendez-vous à un gonflement, une sensibilité et un liquide clair ou blanchâtre (lymphe). C’est normal',
+  'steps.oral.p1': 'Rincez votre bouche avec une solution saline sans alcool ou de l’eau salée diluée après avoir mangé et bu',
+
+  'steps.p2.s1': 'Continuez les rinçages au sérum une à deux fois par jour. Le tissu en cicatrisation profite encore d’un nettoyage régulier',
+  'steps.p2.s2': 'Le canal se forme mais n’est pas encore stable, évitez donc de changer de bijou',
+  'steps.p2.s3': 'Les croûtes visibles peuvent diminuer. Ne grattez pas la lymphe séchée',
+  'steps.p2.s4': 'La rougeur et le gonflement devraient être largement résorbés. Des symptômes persistants méritent un contrôle',
+  'steps.p2.s5': 'Évitez les piscines, les jacuzzis et les eaux libres',
+  'steps.p2.s6': 'Dormez sur un coussin de voyage pour les piercings d’oreille, afin de ne pas appuyer sur le site',
+  'steps.oral.p2': 'Les bains de bouche peuvent passer à une fois par jour dès que la douleur a disparu',
+
+  'steps.p3.s1': 'Un rinçage au sérum une à deux fois par semaine suffit à maintenir l’hygiène',
+  'steps.p3.s2': 'Le canal est mature mais le tissu continue de se renforcer',
+  'steps.p3.s3': 'Restez attentif à toute réaction lors du changement de bijou',
+  'steps.p3.s4': 'Un lavage normal sous la douche suffit désormais',
+  'steps.oral.p3': 'Aucune routine buccale particulière n’est nécessaire au-delà de l’hygiène habituelle',
+
+  'avoids.p1.a1': 'Faire tourner ou bouger le bijou, ce qui perturbe la formation du canal et provoque des microtraumatismes',
+  'avoids.p1.a2': 'Savon, spray antiseptique, eau oxygénée, huile de tea tree ou alcool sur le piercing',
+  'avoids.p1.a3': 'Piscines, jacuzzis, lacs et mer',
+  'avoids.p1.a4': 'Cosmétiques, produits capillaires et sprays à proximité du site',
+  'avoids.p1.a5': 'Vêtements serrés sur les piercings du nombril, de surface ou génitaux',
+  'avoids.p1.a6': 'Toucher le piercing avec des mains non lavées',
+
+  'avoids.p2.a1': 'Changer de bijou. Le canal paraît cicatrisé de l’extérieur alors qu’il se forme encore à l’intérieur',
+  'avoids.p2.a2': 'Immersion prolongée dans l’eau',
+  'avoids.p2.a3': 'Dormir directement sur un piercing d’oreille ou de cartilage sans coussin de voyage',
+  'avoids.p2.a4': 'Accrochages, tractions et chocs',
+
+  'avoids.p3.a1': 'Les matériaux non implantables, donc ni métal inconnu ni acrylique',
+  'avoids.p3.a2': 'Les longues périodes sans aucun bijou, car un canal cicatrisé peut encore se refermer',
+
+  'downsize.on': 'Prévoyez le passage à une tige plus courte vers le {date}.',
+  'downsize.due': 'Le passage à une tige plus courte est dû. Si ce n’est pas fait, prenez rendez-vous maintenant.',
+  'downsize.why': 'Votre première tige a été posée volontairement longue, pour laisser la place au gonflement. Une fois le gonflement résorbé, cette longueur supplémentaire permet au bijou de bouger, de s’accrocher aux vêtements et de tirer sur le canal en cicatrisation, ce qui est une cause fréquente de bourgeons d’irritation et de migration du piercing. Le raccourcir ne prend qu’un rendez-vous rapide, et c’est l’étape la plus souvent oubliée.',
+
+  'redflags.normalTitle': 'Normal :',
+  'redflags.normal': 'Gonflement, sensibilité, légère rougeur près du bijou, et un liquide clair ou blanchâtre qui sèche en croûte. C’est de la lymphe, pas du pus, et c’est le signe que le piercing cicatrise.',
+  'redflags.urgentTitle': 'Consultez un perceur ou un médecin :',
+  'redflags.urgent': 'Rougeur qui s’étend depuis le site, chaleur, douleur pulsatile, écoulement épais jaune ou vert, mauvaise odeur, fièvre, ou une traînée rouge qui s’éloigne du piercing. N’enlevez pas le bijou en premier. Le retirer peut refermer la surface et enfermer une infection dessous. Faites examiner le site.',
+
+  'cond.bump.title': 'Boule ou tissu surélevé',
+  'cond.bump.text': 'Les bourgeons d’irritation sont fréquents pendant la cicatrisation et viennent généralement d’une pression, d’un accrochage ou d’un bijou mal adapté. N’utilisez ni huile de tea tree, ni eau oxygénée, ni savon agressif, et ne retirez pas le bijou. Passez à trois rinçages au sérum par jour et appliquez une compresse saline tiède cinq minutes, deux fois par jour. Si la boule n’a pas diminué en deux à trois semaines, faites vérifier la longueur et le diamètre de votre tige, car une tige trop courte en est une cause majeure.',
+  'cond.irritation.title': 'Rougeur ou irritation',
+  'cond.irritation.text': 'Une rougeur et une sensibilité légères pendant la phase aiguë sont normales. Si elles apparaissent plus tard, elles indiquent en général un traumatisme récent, un nouveau produit utilisé près du site, ou un accrochage. Revenez au sérum physiologique seul. Si la rougeur s’étend, devient chaude, ou s’accompagne d’un écoulement jaune ou vert, il ne s’agit pas d’une irritation et un avis professionnel est nécessaire.',
+  'cond.discharge.title': 'Écoulement inhabituel',
+  'cond.discharge.text': 'Un liquide clair ou blanc, qui sèche en croûte, est normal pendant toute la cicatrisation et n’est pas une infection. Un écoulement jaune, vert ou malodorant ne l’est pas. Arrêtez tout savon, spray ou pommade sur le site et revenez au sérum physiologique stérile uniquement. Si l’écoulement est coloré ou sent mauvais, consultez un médecin, et ne retirez pas le bijou sans avis.',
+
+  'jewellery.materials': 'Le titane de qualité implant (ASTM F136) et le polymère BioFlex® conviennent tous deux pendant toute la cicatrisation.',
+  'jewellery.bioflex': 'Le BioFlex® est particulièrement utile là où le piercing subit un mouvement constant, au nombril, à la langue, en génital et en surface, parce qu’il fléchit au lieu de faire levier sur le canal.',
+  'jewellery.steel': 'Évitez l’acier chirurgical en cas de sensibilité au nickel. Ce n’est pas une valeur sûre par défaut.',
+  'jewellery.change.wait': 'Ne changez pas encore de bijou. Le tissu intérieur mature bien après que l’extérieur paraît cicatrisé.',
+  'jewellery.change.ok': 'Le bijou peut maintenant être changé. Utilisez un matériau de qualité implant, et faites vérifier l’ajustement en cas de doute.',
+
+  'ics.calname': 'Soins : {piercing}',
+  'ics.clean.summary': 'Nettoyez votre piercing {piercing}',
+  'ics.clean.desc': 'Rinçage au sérum physiologique stérile, {freq}. Vaporisez devant et derrière, laissez sécher à l’air, ne faites pas tourner le bijou.',
+  'ics.downsize.summary': 'Passez à une tige plus courte',
+  'ics.downsize.desc': 'Le gonflement devrait être résorbé. Prenez rendez-vous pour raccourcir la tige, ce qui évite les accrochages et la migration.',
+  'ics.phase2.summary': 'Début de la phase 2 de cicatrisation',
+  'ics.phase2.desc': 'La phase de reconstruction. Les rinçages peuvent passer à une ou deux fois par jour. Ne changez toujours pas le bijou.',
+  'ics.phase3.summary': 'Début de la phase 3 de cicatrisation',
+  'ics.phase3.desc': 'La phase de maturation. Un rinçage hebdomadaire suffit. Le canal est mature mais continue de se renforcer.',
+  'ics.healed.summary': 'Votre piercing {piercing} devrait être entièrement cicatrisé',
+  'ics.healed.desc': 'Cicatrisation complète prévue. Si quelque chose reste douloureux, suintant ou induré, faites-le examiner plutôt que de considérer que c’est terminé.',
+
+  'disclaimer': 'Cet outil donne des conseils généraux de soins et ne constitue pas un diagnostic. La cicatrisation varie d’une personne à l’autre. En cas de signes d’infection, comme une rougeur qui s’étend, de la fièvre, du pus ou un gonflement important, consultez rapidement un médecin, et ne retirez le bijou que sur avis professionnel.',
+  'privacy': 'Tout est calculé dans votre navigateur. Rien de ce que vous saisissez n’est envoyé ailleurs, et rien n’est conservé.',
+});
