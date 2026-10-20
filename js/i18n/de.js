@@ -1,9 +1,9 @@
 /* Deutsch. "steriles Kochsalz" fuer sterile saline, "Wundsekret" fuer die
    Lymphe, "Reizknoten" fuer den bump, "Stab kuerzen" fuer downsizing, was
-   deutsche Piercer tatsaechlich sagen. Duzen, wie im Piercing-Bereich ueblich. */
+   deutsche Piercer tatsaechlich sagen. Siezen, wie in der ganzen Dokumentation und im Studio CRM (Patrick 2026-10-20). */
 window.AftercareI18N.add('de', {
   'app.title': 'Persönlicher Heilungsplan-Generator',
-  'app.subtitle': 'Gib das Datum deines Piercings ein und erhalte einen Plan passend zur Heilungsphase, mit echten Terminen zum Ausdrucken, Speichern oder für deinen Kalender.',
+  'app.subtitle': 'Geben Sie das Datum Ihres Piercings ein und erhalten Sie einen Plan passend zur Heilungsphase, mit echten Terminen zum Ausdrucken, Speichern oder für Ihren Kalender.',
   'app.badge': 'Pflegeplan',
 
   'label.type': 'Art des Piercings',
@@ -12,7 +12,7 @@ window.AftercareI18N.add('de', {
   'label.studio': 'Name des Studios (optional)',
   'label.studioContact': 'Kontaktzeile (optional)',
   'label.language': 'Sprache',
-  'hint.date': 'Wähle den Tag, an dem es gestochen wurde. Ein zukünftiges Datum ist in Ordnung, wenn du einen Termin hast.',
+  'hint.date': 'Wählen Sie den Tag, an dem es gestochen wurde. Ein zukünftiges Datum ist in Ordnung, wenn Sie einen Termin haben.',
   'hint.studio': 'Erscheint auf dem Ausdruck. Es wird nichts irgendwohin gesendet.',
 
   'opt.select': 'Auswählen...',
@@ -20,8 +20,8 @@ window.AftercareI18N.add('de', {
   'btn.print': 'Drucken / Als PDF speichern',
   'btn.ics': 'Zum Kalender hinzufügen',
 
-  'err.selectType': 'Wähle zuerst eine Art des Piercings.',
-  'err.selectDate': 'Gib das Datum ein, an dem das Piercing gestochen wurde.',
+  'err.selectType': 'Wählen Sie zuerst eine Art des Piercings.',
+  'err.selectDate': 'Geben Sie das Datum ein, an dem das Piercing gestochen wurde.',
 
   'type.earlobe': 'Ohrläppchen',
   'type.cartilage': 'Ohrknorpel (Helix / Flat)',
@@ -51,13 +51,13 @@ window.AftercareI18N.add('de', {
   'meta.pierced': 'Gestochen am {date}',
   'time.remaining': 'Noch etwa {weeks} Wochen bis zur erwarteten vollständigen Heilung, um den {date}',
   'time.done': 'Erwartete Heilung abgeschlossen',
-  'time.notYet': 'Dein Termin ist am {date}. Das ist der Plan ab dem ersten Tag.',
+  'time.notYet': 'Ihr Termin ist am {date}. Das ist der Plan ab dem ersten Tag.',
 
   'freq.1': 'einmal täglich',
   'freq.2': 'zweimal täglich',
   'freq.3': 'dreimal täglich',
 
-  'section.routine': 'Deine aktuelle Pflegeroutine',
+  'section.routine': 'Ihre aktuelle Pflegeroutine',
   'section.avoid': 'In dieser Phase vermeiden',
   'section.downsize': 'Stab kürzen',
   'section.redflags': 'Was normal ist und was nicht',
@@ -81,7 +81,7 @@ window.AftercareI18N.add('de', {
 
   'steps.p3.s1': 'Eine Spülung ein- bis zweimal pro Woche reicht zur Hygiene',
   'steps.p3.s2': 'Der Kanal ist ausgereift, das Gewebe festigt sich aber weiter',
-  'steps.p3.s3': 'Achte weiter auf Reaktionen, wenn du auf neuen Schmuck wechselst',
+  'steps.p3.s3': 'Achten Sie weiter auf Reaktionen, wenn Sie auf neuen Schmuck wechseln',
   'steps.p3.s4': 'Normales Waschen unter der Dusche genügt ab jetzt',
   'steps.oral.p3': 'Über die normale Mundhygiene hinaus ist keine besondere Routine mehr nötig',
 
@@ -100,40 +100,40 @@ window.AftercareI18N.add('de', {
   'avoids.p3.a1': 'Materialien ohne Implantatqualität, also kein unbekanntes Metall und kein Acryl',
   'avoids.p3.a2': 'Längere Zeit ganz ohne Schmuck, denn ein verheilter Kanal kann sich noch schließen',
 
-  'downsize.on': 'Plane das Kürzen des Stabs für etwa den {date}.',
-  'downsize.due': 'Das Kürzen des Stabs ist fällig. Falls es noch nicht gemacht wurde, vereinbare jetzt einen Termin.',
-  'downsize.why': 'Dein erster Stab wurde bewusst lang gewählt, um Platz für die Schwellung zu lassen. Sobald die Schwellung zurückgeht, lässt diese Extralänge den Schmuck wandern, an Kleidung hängen bleiben und am heilenden Kanal ziehen. Das ist eine häufige Ursache für Reizknoten und für ein Piercing, das auswandert. Das Kürzen ist ein kurzer Termin und der Schritt, der am häufigsten vergessen wird.',
+  'downsize.on': 'Planen Sie das Kürzen des Stabs für etwa den {date}.',
+  'downsize.due': 'Das Kürzen des Stabs ist fällig. Falls es noch nicht gemacht wurde, vereinbaren Sie jetzt einen Termin.',
+  'downsize.why': 'Ihr erster Stab wurde bewusst lang gewählt, um Platz für die Schwellung zu lassen. Sobald die Schwellung zurückgeht, lässt diese Extralänge den Schmuck wandern, an Kleidung hängen bleiben und am heilenden Kanal ziehen. Das ist eine häufige Ursache für Reizknoten und für ein Piercing, das auswandert. Das Kürzen ist ein kurzer Termin und der Schritt, der am häufigsten vergessen wird.',
 
   'redflags.normalTitle': 'Normal:',
   'redflags.normal': 'Schwellung, Druckempfindlichkeit, leichte Rötung direkt am Schmuck und klare oder weißliche Flüssigkeit, die zu Krusten trocknet. Das ist Wundsekret, kein Eiter, und ein Zeichen dafür, dass das Piercing heilt.',
   'redflags.urgentTitle': 'Zum Piercer oder zum Arzt:',
-  'redflags.urgent': 'Rötung, die sich von der Stelle ausbreitet, Hitze, pochender Schmerz, dicker gelber oder grüner Ausfluss, übler Geruch, Fieber, oder ein roter Streifen, der vom Piercing wegläuft. Nimm den Schmuck nicht als Erstes heraus. Das kann die Oberfläche verschließen und eine Infektion darunter einschließen. Lass es ansehen.',
+  'redflags.urgent': 'Rötung, die sich von der Stelle ausbreitet, Hitze, pochender Schmerz, dicker gelber oder grüner Ausfluss, übler Geruch, Fieber, oder ein roter Streifen, der vom Piercing wegläuft. Nehmen Sie den Schmuck nicht als Erstes heraus. Das kann die Oberfläche verschließen und eine Infektion darunter einschließen. Lassen Sie es ansehen.',
 
   'cond.bump.title': 'Knoten oder erhabenes Gewebe',
-  'cond.bump.text': 'Reizknoten sind während der Heilung häufig und entstehen meist durch Druck, Hängenbleiben oder schlecht sitzenden Schmuck. Verwende kein Teebaumöl, kein Wasserstoffperoxid und keine scharfen Seifen, und nimm den Schmuck nicht heraus. Erhöhe die Spülungen auf dreimal täglich und lege zweimal am Tag fünf Minuten eine warme Kochsalzkompresse auf. Wenn der Knoten nach zwei bis drei Wochen nicht kleiner geworden ist, lass Länge und Stärke deines Stabs prüfen, denn ein zu kurzer Stab ist eine der Hauptursachen.',
+  'cond.bump.text': 'Reizknoten sind während der Heilung häufig und entstehen meist durch Druck, Hängenbleiben oder schlecht sitzenden Schmuck. Verwenden Sie kein Teebaumöl, kein Wasserstoffperoxid und keine scharfen Seifen, und nehmen Sie den Schmuck nicht heraus. Erhöhen Sie die Spülungen auf dreimal täglich und legen Sie zweimal am Tag fünf Minuten eine warme Kochsalzkompresse auf. Wenn der Knoten nach zwei bis drei Wochen nicht kleiner geworden ist, lassen Sie Länge und Stärke Ihres Stabs prüfen, denn ein zu kurzer Stab ist eine der Hauptursachen.',
   'cond.irritation.title': 'Rötung oder Reizung',
-  'cond.irritation.text': 'Leichte Rötung und Druckempfindlichkeit in der akuten Phase sind normal. Treten sie später auf, deutet das meist auf eine frische Verletzung, ein neues Produkt in der Nähe der Stelle oder Hängenbleiben hin. Geh zurück zu reiner Kochsalzlösung. Breitet sich die Rötung aus, fühlt sich warm an oder kommt gelber oder grüner Ausfluss dazu, ist das keine Reizung mehr und braucht eine fachliche Einschätzung.',
+  'cond.irritation.text': 'Leichte Rötung und Druckempfindlichkeit in der akuten Phase sind normal. Treten sie später auf, deutet das meist auf eine frische Verletzung, ein neues Produkt in der Nähe der Stelle oder Hängenbleiben hin. Gehen Sie zurück zu reiner Kochsalzlösung. Breitet sich die Rötung aus, fühlt sich warm an oder kommt gelber oder grüner Ausfluss dazu, ist das keine Reizung mehr und braucht eine fachliche Einschätzung.',
   'cond.discharge.title': 'Ungewöhnlicher Ausfluss',
-  'cond.discharge.text': 'Klare oder weiße Flüssigkeit, die zu Krusten trocknet, ist während der gesamten Heilung normal und keine Infektion. Gelber, grüner oder übel riechender Ausfluss ist es nicht. Setze jede Seife, jedes Spray und jede Salbe an der Stelle ab und geh zurück zu ausschließlich steriler Kochsalzlösung. Ist der Ausfluss verfärbt oder riecht er, geh zum Arzt, und nimm den Schmuck nicht ohne Rat heraus.',
+  'cond.discharge.text': 'Klare oder weiße Flüssigkeit, die zu Krusten trocknet, ist während der gesamten Heilung normal und keine Infektion. Gelber, grüner oder übel riechender Ausfluss ist es nicht. Setzen Sie jede Seife, jedes Spray und jede Salbe an der Stelle ab und gehen Sie zurück zu ausschließlich steriler Kochsalzlösung. Ist der Ausfluss verfärbt oder riecht er, gehen Sie zum Arzt, und nehmen Sie den Schmuck nicht ohne Rat heraus.',
 
   'jewellery.materials': 'Titan in Implantatqualität (ASTM F136) und BioFlex®-Polymer sind beide während der gesamten Heilung geeignet.',
   'jewellery.bioflex': 'BioFlex® ist besonders nützlich, wo das Piercing ständig in Bewegung ist, also am Bauchnabel, an der Zunge, im Intimbereich und bei Oberflächenpiercings, weil es nachgibt statt am Kanal zu hebeln.',
-  'jewellery.steel': 'Meide chirurgischen Stahl, wenn du eine Nickelempfindlichkeit hast. Er ist keine sichere Standardwahl.',
-  'jewellery.change.wait': 'Wechsle den Schmuck noch nicht. Das Gewebe im Inneren reift lange, nachdem es außen verheilt aussieht.',
-  'jewellery.change.ok': 'Der Schmuck kann jetzt gewechselt werden. Nimm Material in Implantatqualität und lass den Sitz prüfen, wenn du unsicher bist.',
+  'jewellery.steel': 'Meiden Sie chirurgischen Stahl, wenn Sie eine Nickelempfindlichkeit haben. Er ist keine sichere Standardwahl.',
+  'jewellery.change.wait': 'Wechseln Sie den Schmuck noch nicht. Das Gewebe im Inneren reift lange, nachdem es außen verheilt aussieht.',
+  'jewellery.change.ok': 'Der Schmuck kann jetzt gewechselt werden. Nehmen Sie Material in Implantatqualität und lassen Sie den Sitz prüfen, wenn Sie unsicher sind.',
 
   'ics.calname': 'Pflege: {piercing}',
-  'ics.clean.summary': 'Reinige dein {piercing}-Piercing',
+  'ics.clean.summary': 'Reinigen Sie Ihr {piercing}-Piercing',
   'ics.clean.desc': 'Spülung mit steriler Kochsalzlösung, {freq}. Vorne und hinten sprühen, an der Luft trocknen lassen, den Schmuck nicht drehen.',
   'ics.downsize.summary': 'Stab kürzen lassen',
-  'ics.downsize.desc': 'Die Schwellung sollte abgeklungen sein. Vereinbare einen Termin zum Kürzen des Stabs, das verhindert Hängenbleiben und Auswandern.',
+  'ics.downsize.desc': 'Die Schwellung sollte abgeklungen sein. Vereinbaren Sie einen Termin zum Kürzen des Stabs, das verhindert Hängenbleiben und Auswandern.',
   'ics.phase2.summary': 'Heilungsphase 2 beginnt',
   'ics.phase2.desc': 'Die Aufbauphase. Spülungen können auf ein- bis zweimal täglich reduziert werden. Den Schmuck weiterhin nicht wechseln.',
   'ics.phase3.summary': 'Heilungsphase 3 beginnt',
   'ics.phase3.desc': 'Die Reifungsphase. Eine wöchentliche Spülung reicht. Der Kanal ist ausgereift, festigt sich aber weiter.',
-  'ics.healed.summary': 'Dein {piercing}-Piercing sollte vollständig verheilt sein',
-  'ics.healed.desc': 'Erwartete vollständige Heilung. Wenn noch etwas wehtut, nässt oder verhärtet ist, lass es ansehen, statt es als erledigt zu betrachten.',
+  'ics.healed.summary': 'Ihr {piercing}-Piercing sollte vollständig verheilt sein',
+  'ics.healed.desc': 'Erwartete vollständige Heilung. Wenn noch etwas wehtut, nässt oder verhärtet ist, lassen Sie es ansehen, statt es als erledigt zu betrachten.',
 
-  'disclaimer': 'Dieses Werkzeug gibt allgemeine Pflegehinweise und ist keine Diagnose. Die Heilung ist von Mensch zu Mensch verschieden. Bei Anzeichen einer Infektion, etwa sich ausbreitender Rötung, Fieber, Eiter oder starker Schwellung, geh zeitnah zum Arzt und nimm Schmuck nur nach fachlichem Rat heraus.',
-  'privacy': 'Alles wird in deinem Browser berechnet. Nichts von dem, was du eingibst, wird irgendwohin gesendet, und nichts wird gespeichert.',
+  'disclaimer': 'Dieses Werkzeug gibt allgemeine Pflegehinweise und ist keine Diagnose. Die Heilung ist von Mensch zu Mensch verschieden. Bei Anzeichen einer Infektion, etwa sich ausbreitender Rötung, Fieber, Eiter oder starker Schwellung, gehen Sie zeitnah zum Arzt und nehmen Sie Schmuck nur nach fachlichem Rat heraus.',
+  'privacy': 'Alles wird in Ihrem Browser berechnet. Nichts von dem, was Sie eingeben, wird irgendwohin gesendet, und nichts wird gespeichert.',
 });
