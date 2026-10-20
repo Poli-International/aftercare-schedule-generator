@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (langSel && window.AftercareI18N) {
     // Offer only languages that have a dictionary. A picker listing seven and
     // silently falling back to English on six of them reads as a broken control.
-    var NAMES = { en:'English', fr:'Francais', it:'Italiano', de:'Deutsch', es:'Espanol', nl:'Nederlands', pt:'Portugues' };
+    var NAMES = { en:'English', fr:'Francais', it:'Italiano', de:'Deutsch', es:'Espanol', nl:'Nederlands', pt:'Portugues', th:'ไทย' };
     langSel.innerHTML = '';
     window.AftercareI18N.languages().forEach(function (code) {
       var o = document.createElement('option');
