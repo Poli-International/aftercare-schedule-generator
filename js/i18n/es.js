@@ -116,7 +116,7 @@ window.AftercareI18N.add('es', {
   'cond.discharge.title': 'Secreción inusual',
   'cond.discharge.text': 'Un líquido claro o blanco, que seca formando costra, es normal durante toda la cicatrización y no es infección. Una secreción amarilla, verde o maloliente no lo es. Deja de usar cualquier jabón, espray o pomada en la zona y vuelve solo al suero fisiológico estéril. Si la secreción tiene color u olor, acude a un médico, y no te quites la joya sin que te lo indiquen.',
 
-  'jewellery.materials': 'El titanio de grado implante (ASTM F136) y el polímero BioFlex® son ambos adecuados durante toda la cicatrización.',
+  'jewellery.materials': 'El titanio de grado implante (ASTM F136) y BioFlex® body jewelry son ambos adecuados durante toda la cicatrización.',
   'jewellery.bioflex': 'BioFlex® es especialmente útil donde el piercing está en movimiento constante, como ombligo, lengua, genitales y superficie, porque flexiona en lugar de hacer palanca sobre el canal.',
   'jewellery.steel': 'Evita el acero quirúrgico si tienes sensibilidad al níquel. No es una opción segura por defecto.',
   'jewellery.change.wait': 'Todavía no cambies la joya. El tejido interior madura mucho después de que el exterior parezca cicatrizado.',
