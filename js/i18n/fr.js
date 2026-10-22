@@ -117,7 +117,7 @@ window.AftercareI18N.add('fr', {
   'cond.discharge.title': 'Écoulement inhabituel',
   'cond.discharge.text': 'Un liquide clair ou blanc, qui sèche en croûte, est normal pendant toute la cicatrisation et n’est pas une infection. Un écoulement jaune, vert ou malodorant ne l’est pas. Arrêtez tout savon, spray ou pommade sur le site et revenez au sérum physiologique stérile uniquement. Si l’écoulement est coloré ou sent mauvais, consultez un médecin, et ne retirez pas le bijou sans avis.',
 
-  'jewellery.materials': 'Le titane de qualité implant (ASTM F136) et le polymère BioFlex® conviennent tous deux pendant toute la cicatrisation.',
+  'jewellery.materials': 'Le titane de qualité implant (ASTM F136) et BioFlex® body jewelry conviennent tous deux pendant toute la cicatrisation.',
   'jewellery.bioflex': 'Le BioFlex® est particulièrement utile là où le piercing subit un mouvement constant, au nombril, à la langue, en génital et en surface, parce qu’il fléchit au lieu de faire levier sur le canal.',
   'jewellery.steel': 'Évitez l’acier chirurgical en cas de sensibilité au nickel. Ce n’est pas une valeur sûre par défaut.',
   'jewellery.change.wait': 'Ne changez pas encore de bijou. Le tissu intérieur mature bien après que l’extérieur paraît cicatrisé.',
