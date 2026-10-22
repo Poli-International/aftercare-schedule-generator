@@ -116,7 +116,7 @@ window.AftercareI18N.add('it', {
   'cond.discharge.title': 'Secrezione insolita',
   'cond.discharge.text': 'Un liquido chiaro o bianco, che secca formando crosticine, è normale per tutta la guarigione e non è infezione. Una secrezione gialla, verde o maleodorante non lo è. Sospendi qualsiasi sapone, spray o pomata sul sito e torna alla sola soluzione fisiologica sterile. Se la secrezione è colorata o ha odore, consulta un medico, e non togliere il gioiello senza un parere.',
 
-  'jewellery.materials': 'Il titanio di grado implantare (ASTM F136) e il polimero BioFlex® sono entrambi adatti per tutta la guarigione.',
+  'jewellery.materials': 'Il titanio di grado implantare (ASTM F136) e BioFlex® body jewelry sono entrambi adatti per tutta la guarigione.',
   'jewellery.bioflex': 'Il BioFlex® è particolarmente utile dove il piercing è sottoposto a movimento costante, come ombelico, lingua, genitali e superficie, perché si flette invece di fare leva sul canale.',
   'jewellery.steel': 'Evita l’acciaio chirurgico se hai una sensibilità al nichel. Non è una scelta sicura per definizione.',
   'jewellery.change.wait': 'Non cambiare ancora il gioiello. Il tessuto interno matura molto dopo che l’esterno sembra guarito.',
