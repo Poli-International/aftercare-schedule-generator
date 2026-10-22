@@ -130,8 +130,8 @@
     'cond.discharge.title': 'Unusual discharge',
     'cond.discharge.text': 'Clear or white lymph fluid, which dries as crust, is normal throughout healing and is not infection. Yellow, green or foul-smelling discharge is not. Stop using any soap, spray or ointment on the site and return to sterile saline only. If the discharge is coloured or smells, see a doctor, and do not remove the jewellery without advice.',
 
-    'jewellery.materials': 'Implant-grade titanium (ASTM F136) and BioFlex(R) polymer are both appropriate throughout healing.',
-    'jewellery.bioflex': 'BioFlex(R) is particularly useful where the piercing is under constant movement (navel, tongue, genital and surface placements), because it flexes instead of levering on the channel.',
+    'jewellery.materials': 'Implant-grade titanium (ASTM F136) and BioFlex® body jewelry are both appropriate throughout healing.',
+    'jewellery.bioflex': 'BioFlex® is particularly useful where the piercing is under constant movement (navel, tongue, genital and surface placements), because it flexes instead of levering on the channel.',
     'jewellery.steel': 'Avoid surgical steel if you have any nickel sensitivity. It is not a safe default.',
     'jewellery.change.wait': 'Do not change jewellery yet. The tissue inside matures long after the outside looks healed.',
     'jewellery.change.ok': 'Jewellery can be changed now. Use implant-grade material, and have the fit checked if you are unsure.',
