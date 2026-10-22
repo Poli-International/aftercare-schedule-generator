@@ -115,7 +115,7 @@ window.AftercareI18N.add('nl', {
   'cond.discharge.title': 'Ongewone afscheiding',
   'cond.discharge.text': 'Helder of wit vocht, dat opdroogt tot korstjes, is normaal tijdens het hele genezingsproces en is geen infectie. Gele, groene of vies ruikende afscheiding is dat niet. Stop met elke zeep, spray of zalf op de plek en ga terug naar alleen steriele zoutoplossing. Is de afscheiding gekleurd of ruikt ze, ga dan naar een arts, en haal het sieraad er niet uit zonder advies.',
 
-  'jewellery.materials': 'Titanium van implantaatkwaliteit (ASTM F136) en BioFlex®-polymeer zijn allebei geschikt tijdens het hele genezingsproces.',
+  'jewellery.materials': 'Titanium van implantaatkwaliteit (ASTM F136) en BioFlex® body jewelry zijn allebei geschikt tijdens het hele genezingsproces.',
   'jewellery.bioflex': 'BioFlex® is vooral nuttig waar de piercing constant in beweging is, zoals navel, tong, genitaal en surface, omdat het meebuigt in plaats van te hefbomen op het kanaal.',
   'jewellery.steel': 'Vermijd chirurgisch staal als je gevoelig bent voor nikkel. Het is geen veilige standaardkeuze.',
   'jewellery.change.wait': 'Wissel het sieraad nog niet. Het weefsel binnenin rijpt lang nadat de buitenkant genezen lijkt.',
