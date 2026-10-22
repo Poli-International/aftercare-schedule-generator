@@ -116,7 +116,7 @@ window.AftercareI18N.add('de', {
   'cond.discharge.title': 'Ungewöhnlicher Ausfluss',
   'cond.discharge.text': 'Klare oder weiße Flüssigkeit, die zu Krusten trocknet, ist während der gesamten Heilung normal und keine Infektion. Gelber, grüner oder übel riechender Ausfluss ist es nicht. Setzen Sie jede Seife, jedes Spray und jede Salbe an der Stelle ab und gehen Sie zurück zu ausschließlich steriler Kochsalzlösung. Ist der Ausfluss verfärbt oder riecht er, gehen Sie zum Arzt, und nehmen Sie den Schmuck nicht ohne Rat heraus.',
 
-  'jewellery.materials': 'Titan in Implantatqualität (ASTM F136) und BioFlex®-Polymer sind beide während der gesamten Heilung geeignet.',
+  'jewellery.materials': 'Titan in Implantatqualität (ASTM F136) und BioFlex® body jewelry sind beide während der gesamten Heilung geeignet.',
   'jewellery.bioflex': 'BioFlex® ist besonders nützlich, wo das Piercing ständig in Bewegung ist, also am Bauchnabel, an der Zunge, im Intimbereich und bei Oberflächenpiercings, weil es nachgibt statt am Kanal zu hebeln.',
   'jewellery.steel': 'Meiden Sie chirurgischen Stahl, wenn Sie eine Nickelempfindlichkeit haben. Er ist keine sichere Standardwahl.',
   'jewellery.change.wait': 'Wechseln Sie den Schmuck noch nicht. Das Gewebe im Inneren reift lange, nachdem es außen verheilt aussieht.',
